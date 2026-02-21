@@ -1,0 +1,127 @@
+.DialogMenuPosition ._DialogInputContainer,
+._1ZpBQtDqcKBbfIIv01Vs1R>div.DesktopUI, 
+.DesktopUI ._1ZpBQtDqcKBbfIIv01Vs1R>div,
+._3qIuY9S_vXm3IQS-uE9SRS .PP7LM0Ow1K5qkR8WElLpt,
+.PP7LM0Ow1K5qkR8WElLpt,
+._29AJUo6aKT93gX24N5WFj_,
+.DesktopUI ._2Sj4-UDM-dHSxtxwQ_Pwwz._2Sj4-UDM-dHSxtxwQ_Pwwz ._DialogInputContainer,
+.contextMenu,
+.popup_menu:not(body.infinite_scrolling.menu_background_overlap.responsive_page div) {
+    background: linear-gradient(#525a6f, #393F4D 15%, #1a1a1a 40%, #121727 85%, #2a3353) !important;
+    border: 1px solid #000;
+    border-radius: 0px !important;
+    box-shadow: inset 0px 1px 2px #ffffff6b, inset 0px -1px 2px #ffffff6b !important;
+	filter: hue-rotate(var(--wmp-hue)) saturate(var(--wmp-saturation)) brightness(var(--wmp-brightness)) contrast(var(--wmp-contrast)) !important;
+}
+
+/*fix top menu cut off*/
+.PP7LM0Ow1K5qkR8WElLpt,
+.PP7LM0Ow1K5qkR8WElLpt + .PP7LM0Ow1K5qkR8WElLpt,
+.PP7LM0Ow1K5qkR8WElLpt.child {
+	border: none !important;
+}
+
+/*top/web menu and items
+.PP7LM0Ow1K5qkR8WElLpt {
+	padding: 2px 4px 2px 32px !important;
+	max-width: 256px !important;
+}
+.PP7LM0Ow1K5qkR8WElLpt .contextMenuItem {
+	max-width: 256px !important;
+}
+*/
+
+.DialogMenuPosition ._DialogInputContainer div,
+._1ZpBQtDqcKBbfIIv01Vs1R>div.DesktopUI div, 
+.DesktopUI ._1ZpBQtDqcKBbfIIv01Vs1R>div div,
+.PP7LM0Ow1K5qkR8WElLpt div, 
+._3qIuY9S_vXm3IQS-uE9SRS .PP7LM0Ow1K5qkR8WElLpt div,
+.PP7LM0Ow1K5qkR8WElLpt div,
+._29AJUo6aKT93gX24N5WFj_ div,
+.contextMenu div,
+.popup_menu div {
+	background-color: transparent !important;
+}
+
+.contextMenuUnselectable,
+.contextMenuUnselectable.disabled,
+.contextMenuGameTitle,
+.contextMenuBroadcast,
+.contextMenuGameOptions{
+  background-color: transparent !important;
+}
+
+._2oAiZidGyUxL-hfupFDQ2m,
+.contextMenuItem,
+.EDl_mzaY3WxkgmYVD8W4d ._1BAKXmqQdWRWmWX9_CbhuY .DialogToggle_Label,
+.DesktopUI ._1ZpBQtDqcKBbfIIv01Vs1R > div > div,
+.DesktopUI ._2Sj4-UDM-dHSxtxwQ_Pwwz.DialogMenuPosition > div > div,
+.EDl_mzaY3WxkgmYVD8W4d ._1BAKXmqQdWRWmWX9_CbhuY,
+._1ZpBQtDqcKBbfIIv01Vs1R ._1ZtpSq62fy_8W-_0pMn5cu.DesktopUI, 
+.DesktopUI ._1ZpBQtDqcKBbfIIv01Vs1R ._1ZtpSq62fy_8W-_0pMn5cu {
+    background-color: transparent !important;
+    cursor: unset !important;
+    color: #d5d6e1 !important;
+    font-size: 11px !important;
+    font-weight: 100 !important;
+    font-family: Tahoma !important;
+    text-shadow: 0px 0px 8px #000;
+}
+
+/*
+changes top menu items
+div > .contextMenuItem {
+    background: blue !important;
+}
+*/
+._2oAiZidGyUxL-hfupFDQ2m:focus,
+.contextMenuItem:hover,
+.DesktopUI ._1ZpBQtDqcKBbfIIv01Vs1R > div > div:hover, 
+.DesktopUI ._2Sj4-UDM-dHSxtxwQ_Pwwz.DialogMenuPosition > div > div:hover,
+._1ZpBQtDqcKBbfIIv01Vs1R ._1ZtpSq62fy_8W-_0pMn5cu.DesktopUI:hover, 
+.DesktopUI ._1ZpBQtDqcKBbfIIv01Vs1R ._1ZtpSq62fy_8W-_0pMn5cu:hover {
+    color: #fff !important;
+    outline: 1px solid #21487fa3 !important;
+    border-radius: 3px !important;
+    box-shadow: inset 0px 1px 0px #ffffff61, inset 0px -1px 0px #ffffff61, inset 1px 0px 0px #ffffff61, inset -1px 0px 0px #ffffff61;
+    background-image: linear-gradient(#aad8e5ad, #4875ab70) !important;
+}
+
+/*expanded item*/
+._18z-3vkWndCBO5WJgFldRK._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem {
+	
+}
+
+/*Menu Seperators*/
+
+.WUOrULWKkGLl3ZUQdDXg8.WUOrULWKkGLl3ZUQdDXg8+._1n7Wloe5jZ6fSuvV18NNWI {
+    border-top: 1px solid var(--sys-3D-Shadow) !important;
+    box-shadow: inset 0px 1px 0px #ffffff4a !important;
+    border: unset !important;
+}
+
+.WUOrULWKkGLl3ZUQdDXg8,
+.EDl_mzaY3WxkgmYVD8W4d ._2kvdTEDgtIT7T9wZIzanom {
+    border-top: 1px solid #000000cf !important;
+}
+
+/*Menu Arrows*/
+
+._1n7Wloe5jZ6fSuvV18NNWI._2RlEO6dx1vo3OB7EFJnzDi ._114nFoGF7tZ4PpremDP2w0 {
+    margin: 0px !important;
+    padding-left: 64px !important;
+}
+._1n7Wloe5jZ6fSuvV18NNWI._2RlEO6dx1vo3OB7EFJnzDi .SVGIcon_DownArrowContextMenu {
+    display: none !important;
+}
+._114nFoGF7tZ4PpremDP2w0::after {
+    content: '4';
+    font-family: Marlett;
+    font-size: 12px;
+}
+
+/*Test*/
+
+.contextMenuItem::before {
+	content: unset !important;
+}

@@ -1,0 +1,19 @@
+:root {
+	--sys-3D-Face: #D4D0C8 !important;
+	--sys-3D-Shadow: #808080 !important;
+	--sys-3D-Dark-Shadow: #404040 !important;
+	--sys-3D-Light: #D4D0C8 !important;
+	--sys-3D-Highlight: #FFFFFF !important;
+	--sys-button-text: #000000 !important;
+	--sys-tooltip-background: #FFFFE1 !important;
+	--sys-tooltip-text: #000000 !important;
+	--sys-window-background: #FFFFFF !important;
+	--sys-window-text: #000000 !important;
+	--sys-window-frame: #000000 !important;
+	--sys-menu: #D4D0C8 !important;
+	--sys-menu-text: #000000 !important;
+	--sys-highlight-text: #FFFFFF !important;
+	--sys-highlight: #0A246A !important;
+	--sys-activetitle: #0A246A !important;
+	--sys-activetitle-gradient: #A6CAF0 !important;
+}

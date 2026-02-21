@@ -1,0 +1,30 @@
+/*
+.profile_rightcol {
+    backdrop-filter: blur(5px) !important;
+    border: 1px solid #2b2b2b !important;
+    box-shadow: inset 0px 0px 2px #fff, inset 0px 0px 2px #fff, 2px 2px 12px #000 !important;
+    background-image: radial-gradient(transparent 65%, #ffffff82) !important;
+}
+
+.profile_customization {
+    backdrop-filter: blur(5px) !important;
+    border: 1px solid #2b2b2b !important;
+    box-shadow: inset 0px 0px 2px #fff, inset 0px 0px 2px #fff, 2px 2px 12px #000 !important;
+    background-image: radial-gradient(transparent 65%, #ffffff82) !important;
+}
+
+.btn_profile_action > span {
+    background-color: transparent !important;
+}
+
+.btn_profile_action {
+    box-shadow: inset 0px 0px 2px #fff, inset 0px 0px 2px #fff, 2px 2px 12px #000 !important;
+    border: 1px solid #2b2b2b !important;
+    background-image: linear-gradient(#ffffff9e, #9d9c9c29 50%, #00000052 50%, #0000004d) !important;
+    border-radius: 3px !important;
+}
+
+.btn_profile_action:hover:active {
+	background-image: linear-gradient(#0000004d, #00000052 50%, #9d9c9c29 50%, #ffffff9e) !important;
+}
+*/

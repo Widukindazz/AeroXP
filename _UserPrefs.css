@@ -1,0 +1,10 @@
+:root {
+	/* default hue: 0.0turn */
+	--wmp-hue: 0.0turn;
+	/* default saturation: 1.0 */
+	--wmp-saturation: 1.0;
+	/* default brightness: 1.0 */
+	--wmp-brightness: 1.0;
+	/* default contrast: 1.0 */
+	--wmp-contrast: 1.0;
+}

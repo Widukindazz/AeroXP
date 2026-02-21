@@ -1,0 +1,114 @@
+
+
+body.QsvsRVwbsApgKt1MhM0fz.DesktopUI {
+    width: 100% !important;
+	min-width: 100% !important;
+    padding: 0px !important;
+    background: unset !important;
+}
+
+.chat_main, #popup_target .popup_chat_frame {
+    border: unset !important;
+    min-width: 100% !important;
+    min-height: 100% !important;
+}
+
+body.QsvsRVwbsApgKt1MhM0fz.DesktopUI::before,
+body.QsvsRVwbsApgKt1MhM0fz.DesktopUI::after {
+	content: unset !important;
+}
+
+._39oUCO1OuizVPwcnnv88no {
+	
+}
+
+.ModalDialogPopup .DialogContent_InnerWidth:not(.DialogContent._DialogLayout.GenericDialogBase.GenericConfirmDialog._DialogCenterVertically .DialogContent_InnerWidth, ._21_rrXIoZ7yQbc0u7rhvkP .DialogContent_InnerWidth, .DialogContent._DialogLayout.FFIKUQ7BGKw6vO1voazlr.yXl6Aog783PLUFn-IiX7E .DialogContent_InnerWidth) {
+    padding-top: 0px !important;
+}
+
+._39oUCO1OuizVPwcnnv88no::before {
+	content: unset !important;
+}
+
+.ModalDialogBody.friendsui-container::after, body.fullheight.ModalDialogBody.DesktopUI::after {
+	content: unset !important;
+}
+
+.ModalDialogPopup .ModalDialogBody.friendsui-container .PopupFullWindow .TitleBar, .ModalDialogPopup .ModalDialogBody.DesktopUI .PopupFullWindow .TitleBar {
+    display: none !important;
+}
+
+.ModalDialogPopup .PopupFullWindow>.ModalPosition, .ModalDialogPopup .PopupFullWindow>.ModalPosition>.ModalPosition_Content {
+    padding: 0px !important;
+    width: 100% !important;
+    min-width: 100% !important;
+}
+
+._2rjVTGz8aLvqOdz5v2gq5C:not(._1rDh5rXSFZJOqCa4UpnI4z .MillenniumSettings ._2rjVTGz8aLvqOdz5v2gq5C) {
+    display: none !important;
+}
+
+._2sssIwe0duyIrFvat2oXzH._1FyBL6obxHQ2Z2CsaV2Gbz.Panel {
+    padding: 0px !important;
+}
+
+.DialogHeader._3QhXBKJwISpG-AmpbOQgLQ {
+    top: 0px !important;
+    background-repeat: no-repeat !important;
+    background-color: #FECD06 !important;
+}
+
+.FFIKUQ7BGKw6vO1voazlr.yXl6Aog783PLUFn-IiX7E::after, [role="dialog"][aria-label="About Steam"]::after {
+	content: unset !important;
+}
+
+.u-Qbw_um9KIbq019Iid1E .DialogHeader,
+[role="dialog"][aria-label="Players"] .DialogHeader {
+	display: none !important;
+}
+
+._2rxrVvbku0AC8Qbequ4-z9 .DialogHeader {
+    display: none !important;
+}
+
+._3v2Gg_GCpLHpHQDLFQ7cvI.hYVp3sXyS0uYfJnzVoK-m .DialogHeader,
+[role="dialog"][aria-label="System Information"] .DialogHeader {
+	display: none !important;
+}
+
+._31Kkeb6BIUOVu8QL-dgtY-.DialogContent::before {
+	display: none !important;
+}
+
+.LclHwcOfHFpwObYMD1HLa ._3T-1PliI6PkKE-bE-o3bV0 {
+	display: none !important;
+}
+
+/*Hide title bar controls*/
+
+._39oUCO1OuizVPwcnnv88no .qP17eBPXkfezFfexZ4hC3 {
+    display: none !important;
+}
+
+/*Shift around controls*/
+
+._20QAC4WMXm8qFE8waUT5oo {
+    right: -8px !important;
+}
+
+._2TKEazUUS3TlniZfpc8OOe {
+    right: 276px !important;
+}
+
+._1ZS_xta5HMXzR8JgxDH6n7 {
+    left: 4px !important;
+}
+
+.window_resize_grip {
+    right: 0px !important;
+	/*margin-right: 8px !important;*/
+}
+
+.MillenniumDesktopSidebar {
+    margin-right: 0px !important;
+}

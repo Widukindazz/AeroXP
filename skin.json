@@ -1,0 +1,363 @@
+{
+	"author": "Sennanon",
+	"name": "Aero XP",
+	"description": "A steam skin that replicates the ui of Windows Media Player 11 on Windows XP.",
+	"version": "1.7.0",
+	
+	"Steam-WebKit": "webkit.css",
+    "UseDefaultPatches": true,
+		
+	"Conditions": {
+		"Library Theme": {
+		"description": "Select a UI Style.",
+		"tab": "Theme",
+		"default": "LibraryAeroBasic",
+		"values": {
+		  "LibraryAeroBasic": {
+			"TargetCss": {
+			  "affects": [".*"],
+			  "src": "CSS/LibraryAeroBasic.css"
+			}
+		  },
+		  "LibraryAeroMediaCenter": {
+			"TargetCss": {
+			  "affects": [".*"],
+			  "src": "CSS/LibraryAeroMediaCenter.css"
+			}
+		  }
+		}
+	  },
+		"Media Center Library Background": {
+		"description": "Change the library background of the Media center theme.",
+		"tab": "Theme",
+		"default": "MediaCenterDefault",
+		"values": {
+		  "MediaCenterDefault": {
+			"TargetCss": {
+			  "affects": [".*"],
+			  "src": "CSS/BackgroundMediaCenterDefault.css"
+			}
+		  },
+		  "MediaCenterBeta1": {
+			"TargetCss": {
+			  "affects": [".*"],
+			  "src": "CSS/BackgroundMediaCenterBeta.css"
+			}
+		  },
+		  "MediaCenterBeta2": {
+			"TargetCss": {
+			  "affects": [".*"],
+			  "src": "CSS/BackgroundMediaCenterBetaAlt.css"
+			}
+		  },
+		  "MediaCenterXP": {
+			"TargetCss": {
+			  "affects": [".*"],
+			  "src": "CSS/BackgroundMediaCenterXP.css"
+			}
+		  }
+		}
+	  },
+		"Messenger Theme": {
+		"description": "Select a friends list UI Style.",
+		"tab": "Theme",
+		"default": "MessengerLight",
+		"values": {
+		  "MessengerMSN": {
+			"TargetCss": {
+			  "affects": [".*"],
+			  "src": "CSS/MessengerMSN.css"
+			}
+		  },
+		  "MessengerLight": {
+			"TargetCss": {
+			  "affects": [".*"],
+			  "src": "CSS/Messenger_Light.css"
+			}
+		  },
+		  "MessengerDark": {
+			"TargetCss": {
+			  "affects": [".*"],
+			  "src": "CSS/Messenger_Dark.css"
+			}
+		  }
+		}
+	  },
+	  	"Hide some scrollbars": {
+		"default": "yes",
+		"description": "To clean up the ui some scrollbars hidden, uncheck this to restore them.",
+		"tab": "General",
+		"values": {
+		  "no": {
+			"TargetCss": {
+			  "affects": [".*"],  "src": "CSS/scrollcontrolfallback.css"
+			}
+		  },
+		  "yes": {
+			"TargetCss": {
+			  "affects": [".*"], "src": "CSS/scrollcontrol.css"
+			}
+		  }
+		}
+	  },
+	  	"Force fit command bar username width": {
+		"default": "no",
+		"description": "Force fit the username in the command bar to 500px, might be useful for long usernames.",
+		"tab": "General",
+		"values": {
+		  "no": {
+			"TargetCss": {
+			  "affects": [".*"],  "src": ""
+			}
+		  },
+		  "yes": {
+			"TargetCss": {
+			  "affects": [".*"], "src": "CSS/cmdwidth.css"
+			}
+		  }
+		}
+	  },
+	  	"Use Aero Loading Animation": {
+		"default": "yes",
+		"description": "Replaces loading circles with their aero counterparts from vista, (still being worked on, might be buggy).",
+		"tab": "General",
+		"values": {
+		  "no": {
+			"TargetCss": {
+			  "affects": [".*"],  "src": ""
+			}
+		  },
+		  "yes": {
+			"TargetCss": {
+			  "affects": [".*"], "src": "CSS/AeroLoading.css"
+			}
+		  }
+		}
+	  },
+	  "Library Font": {
+		"description": "Change the font of the GUI.",
+		"tab": "Theme",
+		"default": "SegoeUI",
+		"values": {
+		  "SegoeUI": {
+			"TargetCss": {
+			  "affects": [".*"],
+			  "src": "fonts/SegoeUI.css"
+			}
+		  },
+		  "Tahoma": {
+			"TargetCss": {
+			  "affects": [".*"],
+			  "src": "fonts/Tahoma.css"
+			}
+		  }
+		}
+	  },
+	  "Bottom Buttons Style": {
+		"description": "Change the style of the bottom buttons.",
+		"tab": "General",
+		"default": "text and icon",
+		"values": {
+		  "text and icon": {
+			"TargetCss": {
+			  "affects": [".*"],
+			  "src": "CSS/AeroButtonsVar2.css"
+			}
+		  },
+		  "text only": {
+			"TargetCss": {
+			  "affects": [".*"],
+			  "src": "CSS/AeroButtonsVar1.css"
+			}
+		  },
+		  "icons only": {
+			"TargetCss": {
+			  "affects": [".*"],
+			  "src": "CSS/AeroButtonsVar3.css"
+			}
+		  },
+		  "Steam default": {
+			"TargetCss": {
+			  "affects": [".*"],
+			  "src": "CSS/AeroButtonsVar4.css"
+			}
+		  }
+		}
+	  },
+	  "Color Presets": {
+		"description": "(Designed for the aero basic theme) Changes the colors of the UI. For the custom setting, edit the file titled _UserPrefs.css in the skin's root folder.",
+		"tab": "Theme",
+		"default": "Default Colors",
+		"values": {
+		  "DefaultColors": {
+			"TargetCss": {
+			  "affects": [".*"],
+			  "src": "ColorPresets/Default.css"
+			}
+		  },
+		  "Custom": {
+			"TargetCss": {
+			  "affects": [".*"],
+			  "src": "_UserPrefs.css"
+			}
+		  },
+		  "Red": {
+			"TargetCss": {
+			  "affects": [".*"],
+			  "src": "ColorPresets/Red.css"
+			}
+		  },
+		  "Orange": {
+			"TargetCss": {
+			  "affects": [".*"],
+			  "src": "ColorPresets/Orange.css"
+			}
+		  },
+		  "Yellow": {
+			"TargetCss": {
+			  "affects": [".*"],
+			  "src": "ColorPresets/Yellow.css"
+			}
+		  },
+		  "Green": {
+			"TargetCss": {
+			  "affects": [".*"],
+			  "src": "ColorPresets/Green.css"
+			}
+		  },
+		  "Cyan": {
+			"TargetCss": {
+			  "affects": [".*"],
+			  "src": "ColorPresets/Cyan.css"
+			}
+		  },
+		  "Blue": {
+			"TargetCss": {
+			  "affects": [".*"],
+			  "src": "ColorPresets/Blue.css"
+			}
+		  },
+		  "Violet": {
+			"TargetCss": {
+			  "affects": [".*"],
+			  "src": "ColorPresets/Violet.css"
+			}
+		  },
+		  "Pink": {
+			"TargetCss": {
+			  "affects": [".*"],
+			  "src": "ColorPresets/Pink.css"
+			}
+		  },
+		  "Greyscale": {
+			"TargetCss": {
+			  "affects": [".*"],
+			  "src": "ColorPresets/Greyscale.css"
+			}
+		  }
+		}
+	  },
+	  	"Configure for system titlebar": {
+		"default": "no",
+		"description": "Configures the ui to work with the system titlebar, only enable if you use steam with the native system titlebar.",
+		"tab": "Advanced",
+		"values": {
+		  "no": {
+			"TargetCss": {
+			  "affects": [".*"],  "src": ""
+			}
+		  },
+		  "yes": {
+			"TargetCss": {
+			  "affects": [".*"], "src": "CSS/DefinedModeNativeFrames.css"
+			}
+		  }
+		}
+	  },
+	  	"Hide Additional Titlebar Controls": {
+		"default": "no",
+		"description": "Hides the extra controls in the titlebar such as big picture, notificactions, and news.",
+		"tab": "Advanced",
+		"values": {
+		  "no": {
+			"TargetCss": {
+			  "affects": [".*"],  "src": ""
+			}
+		  },
+		  "yes": {
+			"TargetCss": {
+			  "affects": [".*"], "src": "CSS/DefinedModeHideTitleControls.css"
+			}
+		  }
+		}
+	  },
+	  	"Use Aero Menubar": {
+		"default": "no",
+		"description": "Changes the menu bar resource to the one from vista/7.",
+		"tab": "Advanced",
+		"values": {
+		  "no": {
+			"TargetCss": {
+			  "affects": [".*"],  "src": ""
+			}
+		  },
+		  "yes": {
+			"TargetCss": {
+			  "affects": [".*"], "src": "CSS/DefinedModeRetexMenuBar.css"
+			}
+		  }
+		}
+	  },
+	  	"Reorder toolbars": {
+		"default": "no",
+		"description": "Moves the navigation bar above the menu bar.",
+		"tab": "Advanced",
+		"values": {
+		  "no": {
+			"TargetCss": {
+			  "affects": [".*"],  "src": ""
+			}
+		  },
+		  "yes": {
+			"TargetCss": {
+			  "affects": [".*"], "src": "CSS/DefinedModeReorderToolbars.css"
+			}
+		  }
+		}
+	  },
+	  	"Small Mode": {
+		"default": "no",
+		"description": "Select if you use steam in small mode.",
+		"tab": "General",
+		"values": {
+		  "no": {
+			"TargetCss": {
+			  "affects": [".*"],  "src": ""
+			}
+		  },
+		  "yes": {
+			"TargetCss": {
+			  "affects": [".*"], "src": "CSS/DefinedModeSmall.css"
+			}
+		  }
+		}
+	  },
+	    "Console Mode": {
+		"default": "no",
+		"description": "Select if you use steam with the console enabled.",
+		"tab": "General",
+		"values": {
+		  "no": {
+			"TargetCss": {
+			  "affects": [".*"],  "src": "CSS/NavNormal.css"
+			}
+		  },
+		  "yes": {
+			"TargetCss": {
+			  "affects": [".*"], "src": "CSS/NavConsole.css"
+			}
+		  }
+		}
+	  }
+	}
+}
