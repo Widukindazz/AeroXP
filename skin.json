@@ -3,6 +3,14 @@
 	"name": "Aero XP",
 	"description": "A steam skin that replicates the ui of Windows Media Player 11 on Windows XP.",
 	"version": "1.7.0",
+    "github": {
+        "owner": "Sennanon87",
+        "repo_name": "AeroXP"
+    },
+	"funding": { "kofi": "bau734537" },
+	"tags": [ "Aero", "Steam", "Light", "Dark", "Customizable"],
+	"header_image": "https://raw.githubusercontent.com/Sennanon87/AeroXP/refs/heads/main/Previews/Banner.PNG",
+    "splash_image": "https://raw.githubusercontent.com/Sennanon87/AeroXP/refs/heads/main/Previews/Preview1.png",
 	
 	"Steam-WebKit": "webkit.css",
     "UseDefaultPatches": true,
@@ -360,4 +368,5 @@
 		}
 	  }
 	}
+
 }
