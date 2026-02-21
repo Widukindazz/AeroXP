@@ -33,6 +33,8 @@ Enabling the plugin will allow use of rounded corners with the “transparent wi
 </details>
 
 # Customization
+The main theme is the aero basic theme, the media center theme has to be set in the skin's settings. Also, just to note, both library themes have matching friends list themes and have to be set manually in the skin's settings.
+
 Options to change the hue/saturation of the ui, along with some color presets are included (This setting is still experimental and was designed for the AeroBasic theme, MediaCenter works but is a bit buggy). There's also an option to change the style of the bottom buttons.
 
 <details>
