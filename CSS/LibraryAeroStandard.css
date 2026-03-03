@@ -201,9 +201,14 @@
 /*command bar*/
 ._2CmrnGY-Amtd83ScJkFvx2 {
     height: 30px !important;
-    background-image: linear-gradient(#DBE6F4, #C7DCF8 50%, #B3D0F5 50%, #D7E5F7) !important;
-    border-bottom: 1px solid #809abb !important;
-    box-shadow: inset 0px 3px 0px rgb(255, 255, 255, .5), inset 0px -1px 0px rgb(255, 255, 255, .5) !important;
+    /* background-image: linear-gradient(#DBE6F4, #C7DCF8 50%, #B3D0F5 50%, #D7E5F7) !important; */
+    /* border-bottom: 1px solid #809abb !important; */
+    /* box-shadow: inset 0px 3px 0px rgb(255, 255, 255, .5), inset 0px -1px 0px rgb(255, 255, 255, .5) !important; */
+    background: linear-gradient(#fff, #E6F0FA 50%, #DCE6F4 50%, #DDE9F7) !important;
+    border-bottom: 2px solid #A0AFC3;
+    border-image: linear-gradient(#CDDAEA calc(100% - 1px), #A0AFC3 calc(100% - 1px)) !important;
+    border-image-slice: 2 2 2 2 !important;
+    box-shadow: inset 0px 0px 2px #fff, inset 0px 0px 2px #fff !important;
 }
 .UkR3sY319PuaUNuUWks2K {
     padding: 0px !important;
@@ -737,7 +742,7 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase.Focusable::Placehol
 ._2-O4ZG0KrnSrzISHBKctFQ ._1vO6BoiVslZgs1kqDGdUs8 {
     padding: 0px 2px 0px 24px !important;
 }
-.ReactVirtualized__Grid__innerScrollContainer .Panel:not(._299aNmx77BOVzXgzOho1sG.Panel div) {
+.ReactVirtualized__Grid__innerScrollContainer .Panel:not(.QsvsRVwbsApgKt1MhM0fz div, ._299aNmx77BOVzXgzOho1sG.Panel div) {
     height: 24px !important;
     max-height: 24px !important;
     max-width: 100% !important;
@@ -5560,6 +5565,10 @@ form[role="dialog"] .DialogHeader {
     padding: 0px 0px 0px 6px !important;
 }
 
+.aFxOaYcllWYkCfVYQJFs0.DesktopUI, .DesktopUI .aFxOaYcllWYkCfVYQJFs0 {
+    mask: unset !important;
+}
+
 /*profile padding fix*/
 
 .eKmEXJCm_lgme24Fp_HWt.xIITXDcM70faUNqssgUyx {
@@ -5771,4 +5780,25 @@ form[role="dialog"] .DialogHeader {
 }
 ._27RcNu8aXKBpYkHcNNrt-X ._11kuVRYZvWXn-3rBJ_6yL8 {
     z-index: 2;
+}
+
+/*Big picture mode fixes*/
+
+._3IBLc81yyL08OJ7rfKtF00 {
+    position: relative !important;
+    z-index: 2;
+}
+
+.QsvsRVwbsApgKt1MhM0fz .ReactVirtualized__Grid {
+	
+}
+
+.QsvsRVwbsApgKt1MhM0fz .ReactVirtualized__Grid::-webkit-scrollbar,
+.QsvsRVwbsApgKt1MhM0fz .ReactVirtualized__Grid::-webkit-scrollbar-thumb,
+.QsvsRVwbsApgKt1MhM0fz .ReactVirtualized__Grid::-webkit-scrollbar-button {
+	visibility: collapse !important;
+}
+
+.BasicUIContextMenu.uWT-cMCXkxiyxcSs9UA-0 {
+    background-color: rgba(0, 0, 0, 0.5) !important;
 }
