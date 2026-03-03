@@ -161,7 +161,7 @@
     border-top-right-radius: 5px !important;
     box-shadow: inset 1px 0px 0px #fff, inset -1px 0px 0px #fff, inset 0px 1px 0px #fff !important;
 	padding-left: 4px !important;
-    background-image: linear-gradient(#b5e3ff, #7bc3e7 50%, #769dcf) !important;
+    background-image: linear-gradient(#dbf9fc, #a4dbe3 50%, #94bcc9) !important;
 }
 
 ._1HNpQBKKKQ1tG2OZH3CSsh {
@@ -170,7 +170,31 @@
     font-family: var(--gui-font) !important;
 }
 
+.chatTabSelector {
+    height: 28px !important;
+    width: 24px !important;
+    border: 1px solid #0000007a !important;
+    border-radius: 5px !important;
+    background: linear-gradient(#ffffffad, #ffffff05 50%, #6d6d6d57 50%, #0000002e) !important;
+    box-shadow: inset 0px 0px 2px #fff, inset 0px 0px 2px #fff, inset 0px 0px 2px #fff, inset 0px 0px 2px #fff !important;
+}
+
+.chatTabSelector .SVGIcon_DownArrowContextMenu {
+    margin-top: 8px !important;
+    margin-left: 6px !important;
+    fill: #353535 !important;
+}
+
 /*Misc color changes*/
+
+.chatRoomGroupHeaderTagline {
+    color: #656565 !important;
+}
+
+.msg.serverMsg .msgText {
+    text-align: center !important;
+    color: #0078D7 !important;
+}
 
 .online .nOdcT-MoOaXGePXLyPe0H {
     color: #000 !important;

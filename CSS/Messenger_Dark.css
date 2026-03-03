@@ -175,8 +175,30 @@
     box-shadow: 0px 0px 1px #fff, 0px 0px 1px #ffffffa1;
 }
 
+.chatTabSelector {
+    height: 28px !important;
+    width: 24px !important;
+    border: 1px solid #0000007a !important;
+    border-radius: 5px !important;
+    background: linear-gradient(#ffffffad, #ffffff05 50%, #6d6d6d57 50%, #0000002e) !important;
+    box-shadow: inset 0px 0px 2px #fff, inset 0px 0px 2px #fff, inset 0px 0px 2px #fff, inset 0px 0px 2px #fff !important;
+}
+
+.chatTabSelector .SVGIcon_DownArrowContextMenu {
+    margin-top: 8px !important;
+    margin-left: 6px !important;
+}
 
 /*Misc color changes*/
+
+.chatRoomGroupHeaderTagline {
+    color: #bdbdbd !important;
+}
+
+.msg.serverMsg .msgText {
+    text-align: center !important;
+    color: #2bb92b !important;
+}
 
 .online .nOdcT-MoOaXGePXLyPe0H {
     color: #fff !important;
