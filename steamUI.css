@@ -50,6 +50,12 @@ div.ShortWindow ._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU ._1dgAMymUAUYzUc
 
 /**/
 
+/*hide new tool tooltips*/
+
+._2-O4ZG0KrnSrzISHBKctFQ ._1vO6BoiVslZgs1kqDGdUs8 ._2-J2nMJ1zmDok8-jqXlf1e {
+    display: none !important;
+}
+
 ._3cykd-VfN_xBxf3Qxriccm._1-9sir4j_KQiMqdkZjQN0u .tool-tip-source.Focusable:nth-last-child(2) {
     position: absolute !important;
     top: 31px;
