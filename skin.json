@@ -161,6 +161,25 @@
 		  }
 		}
 	  },
+	   "Library Text Transparency": {
+		"description": "Change the transparency of the library text headers.",
+		"tab": "Theme",
+		"default": "Transparent",
+		"values": {
+		  "Transparent": {
+			"TargetCss": {
+			  "affects": [".*"],
+			  "src": "Themes/TransparentText.css"
+			}
+		  },
+		  "WhiteGradient": {
+			"TargetCss": {
+			  "affects": [".*"],
+			  "src": "Themes/FullWhiteText.css"
+			}
+		  }
+		}
+	  },
 	  "Bottom Buttons Style": {
 		"description": "Change the style of the bottom buttons.",
 		"tab": "General",
